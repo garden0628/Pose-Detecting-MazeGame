@@ -1,14 +1,7 @@
 package com.example.mazegame_v2.utils
 
-import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
-import android.hardware.camera2.CameraCaptureSession
-import android.hardware.camera2.CameraDevice
-import android.hardware.camera2.CameraManager
-import android.os.Handler
-import android.view.Surface
-import android.view.TextureView
 import androidx.annotation.OptIn
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ExperimentalLensFacing
@@ -18,16 +11,9 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
 import androidx.core.app.ActivityCompat.requestPermissions
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.LifecycleOwner
 import com.example.mazegame_v2.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
-import com.example.mazegame_v2.models.PoseDetectModel
 import com.example.mazegame_v2.poseDetection.PoseDetection
 import com.example.mazegame_v2.views.MainActivity
-import org.tensorflow.lite.DataType
-import org.tensorflow.lite.support.image.ImageProcessor
-import org.tensorflow.lite.support.image.TensorImage
-import org.tensorflow.lite.support.image.ops.ResizeOp
-import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 
 object CameraUtils {
 

@@ -3,8 +3,6 @@ package com.example.mazegame_v2.poseDetection
 import android.graphics.Bitmap
 import com.example.mazegame_v2.ml.LiteModelMovenetSingleposeLightningTfliteFloat164
 import com.example.mazegame_v2.models.PoseDetectModel
-import com.example.mazegame_v2.utils.CameraUtils
-import com.example.mazegame_v2.views.MainActivity
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
