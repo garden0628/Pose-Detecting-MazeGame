@@ -16,4 +16,13 @@ class GameModel() {
         }
     }
 
+    fun printMaze() {
+        for (i in 0 until numberMaze.size) {
+            for (j in 0 until numberMaze[i].size) {
+                print(numberMaze[i][j])
+                print(" ")
+            }
+            println()
+        }
+    }
 }
